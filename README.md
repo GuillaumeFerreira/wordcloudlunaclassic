@@ -4,6 +4,8 @@
 A simple word cloud website to highlight the # on memo **luna classic** blockchain **#LUNC**
 ***
 ## Functionality
-- Page Word Cloud --> HTML5, CSS
+- Page Word Cloud
 - Scrapping Memo 
+### Framework used
+-   Django 4.1.1
 ## Screenshot
