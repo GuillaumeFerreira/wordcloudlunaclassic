@@ -1,4 +1,10 @@
-from django.http import HttpResponse
+from django.views.generic import TemplateView
+from django.urls import reverse
 
-def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+
+class IndexView(TemplateView):
+
+    template_name = "index.html"
+
+    def get_success_url(self):
+        return reverse("index")
