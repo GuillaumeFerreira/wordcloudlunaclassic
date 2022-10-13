@@ -22,6 +22,7 @@ from django.conf import settings
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('', views.IndexView.as_view(), name='index'),
+    path('burn', views.ReadAdressLuncBurn.as_view(), name='burn'),
 
 ]
 if settings.DEBUG:
